@@ -6,7 +6,7 @@
    2, Non-Primitive Data Type or Object Data type: such as String, Array, etc.
    
    There are 8 types of primitive data types:
-*  It includes:
+* 
 	- boolean data type
 	- byte data type
 	- char data type
@@ -29,6 +29,6 @@
    #### Types of Array in java:
    There are two types of array.
 
-   i  Single Dimensional Array
-   ii Multidimensional Array
+  *   Single Dimensional Array
+      Multidimensional Array
    
