@@ -1,24 +1,18 @@
-## 1 Single Dimensional Array
-
-```javascript
 class Array{  
 public static void main(String args[]){  
 int a[]={1,2,3,4};
 for(int i=0;i<a.length;i++) 
 System.out.println(a[i]);  
 }} 
-``` 
 
-### Output
-1\
-2\
-3\
+
+Output:
+1
+2
+3
 4
 
-## 2 MultiDimensional Array
-
-```javascript
-class Testarray{  
+class Array{  
 public static void main(String args[]){  
 //declaring and initializing 2D array  
 int arr[][]={{1,2,3},{4,5,6},{7,8,9}};
@@ -29,8 +23,8 @@ for(int i=0;i<3;i++){
  System.out.println();  
 }  
 }}  
-```
-### Output
-1 2 3\
-4 5 6\
+
+Output :
+1 2 3
+4 5 6
 7 8 9
