@@ -22,7 +22,8 @@
    ##### Declaring Array Variables
    To use an array in a program, you must declare a variable to reference the array, and you must specify the type of array the variable      can reference. 
    SYNTAX:
-   ```dataType[] arrayRefVar; 
+   ```javascript
+   dataType[] arrayRefVar; 
     or
    dataType arrayRefVar[];
    ```
@@ -31,5 +32,5 @@
    There are two types of array.
 
   *   Single Dimensional Array
-  *     Multidimensional Array
+  *   Multidimensional Array
    
