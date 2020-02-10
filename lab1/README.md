@@ -5,9 +5,9 @@
    1. Primitive Data Type: such as boolean, char, int, short, byte, long, float and double
    2. Non-Primitive Data Type or Object Data type: such as String, Array, etc.
    
- *There are 8 types of primitive data types:
+ * There are 8 types of primitive data types:
  
-   - boolean data type
+      - boolean data type
 	- byte data type
 	- char data type
 	- short data type
