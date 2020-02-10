@@ -2,9 +2,9 @@
 Constructor is a block of code that initializes the newly created object. A constructor resembles an instance method in java but it’s not a method as it doesn’t have a return type. 
 ## Types of Constructors
 There are two types of constructors: Default and Parameterized
-1.Default constructor
+1. Default constructor
 If you do not implement any constructor in your class, Java compiler inserts a default constructor into your code on your behalf. This constructor is known as default constructor. 
-2.Parameterized constructor
+2. Parameterized constructor
 Constructor with arguments(or you can say parameters) is known as Parameterized constructor.
 Example:
 ```javascript 
