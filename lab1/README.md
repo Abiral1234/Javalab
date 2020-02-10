@@ -7,7 +7,7 @@
    
  There are 8 types of primitive data types:
  
-* boolean data type
+- boolean data type
 	- byte data type
 	- char data type
 	- short data type
