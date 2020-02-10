@@ -2,8 +2,8 @@
 ### a, Data Types In Java
    Java has two categories of data:
 
-   1, Primitive Data Type: such as boolean, char, int, short, byte, long, float and double
-   2, Non-Primitive Data Type or Object Data type: such as String, Array, etc.
+   1. Primitive Data Type: such as boolean, char, int, short, byte, long, float and double
+   2. Non-Primitive Data Type or Object Data type: such as String, Array, etc.
    
   * There are 8 types of primitive data types:
  
@@ -22,9 +22,10 @@
    ##### Declaring Array Variables
    To use an array in a program, you must declare a variable to reference the array, and you must specify the type of array the variable      can reference. 
    SYNTAX:
-   dataType[] arrayRefVar; 
+   ```dataType[] arrayRefVar; 
     or
-   dataType arrayRefVar[]; 
+   dataType arrayRefVar[];
+   ```
    
    #### Types of Array in java:
    There are two types of array.
