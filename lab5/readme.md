@@ -23,7 +23,7 @@ It is character-oriented class which is used for file handling in java.
 ### Constructors of FileReader class
 Constructor	Description
 FileReader(String file)	It gets filename in string. | It opens the given file in read mode. If file doesn't exist, it throws FileNotFoundException.
------------- | -------------
+
 FileReader(File file)	It gets filename in file instance. | It opens the given file in read mode. If file doesn't exist, it throws FileNotFoundException.
 ### Methods of FileReader class
 
