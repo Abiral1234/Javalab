@@ -24,7 +24,7 @@ It is character-oriented class which is used for file handling in java.
 Constructor	Description
 FileReader(String file)	It gets filename in string. It opens the given file in read mode. If file doesn't exist, it throws FileNotFoundException.
 
-FileReader(File file)	It gets filename in file instance. | It opens the given file in read mode. If file doesn't exist, it throws FileNotFoundException.
+FileReader(File file)	It gets filename in file instance. It opens the given file in read mode. If file doesn't exist, it throws FileNotFoundException.
 ### Methods of FileReader class
 
 int read()	It is used to return a character in ASCII form. It returns -1 at the end of file.
