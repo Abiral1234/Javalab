@@ -6,7 +6,7 @@ GridLayoutDemo(){
 	GridBagLayout grid = new GridBagLayout();  
     GridBagConstraints gbc = new GridBagConstraints();  
     f.setLayout(grid);  
-    GridBagLayout layout = new GridBagLayout();
+   
     gbc.fill = GridBagConstraints.HORIZONTAL;  
     gbc.gridx = 0;  
     gbc.gridy = 0;  
@@ -30,8 +30,31 @@ GridLayoutDemo(){
     gbc.gridy = 2;  
     TextArea t2=new TextArea();
    f.add(t2,gbc);
+
+    gbc.fill = GridBagConstraints.HORIZONTAL;  
+    gbc.gridx = 0;  
+    gbc.gridy = 3;  
+    Label l3=new Label("Country");
+   f.add(l3,gbc);
+
+   gbc.fill = GridBagConstraints.HORIZONTAL;  
+    gbc.gridx = 1;  
+    gbc.gridy = 3;  
+     Choice c=new Choice(); 
+      	c.add("Nepal");     
+        c.add("India");  
+        c.add("China");  
+        f.add(c,gbc);  
+
+    gbc.fill = GridBagConstraints.VERTICAL;  
+    gbc.gridx = 0;  
+    gbc.gridy = 4;  
+    Checkbox checkbox1 = new Checkbox("Dancing"); 
+    f.add(checkbox1,gbc);   
+    Checkbox checkbox2 = new Checkbox("Singing", true); 
+    f.add(checkbox2,gbc);  
+
     f.setSize(600,600);  
-    
     f.setVisible(true);  }
 
 public static void main(String[] args) {
